@@ -1,7 +1,7 @@
 name: DMP 2024 Project Template
-description: List a new project for Dedicated Mentoring Program (DMP) 2024 
-title: "[DMP 2024]: "
-labels: ["DMP 2024"]
+description: List a new project for Dedicated Mentoring Program (DMP) 2024
+title: '[DMP 2024]: '
+labels: ['DMP 2024']
 body:
   - type: textarea
     id: ticket-description
@@ -31,7 +31,7 @@ body:
   - type: textarea
     id: ticket-setup
     attributes:
-      label: Setup/Installation 
+      label: Setup/Installation
       description: Please list or link setup or installation guide (if any)
 
   - type: textarea
@@ -76,7 +76,7 @@ body:
       multiple: false
       options:
         - Bandhu
-        - Blockster Global (CREDBEL)
+        - Blockster Labs (CREDEBL)
         - Civis
         - Dhwani
         - Dhiway
@@ -106,19 +106,19 @@ body:
     attributes:
       label: Domain
       options:
-        - ⁠Healthcare 
-        - ⁠Education
+        - Healthcare
+        - Education
         - Financial Inclusion
-        - ⁠Livelihoods
-        - ⁠Skilling 
-        - ⁠Learning & Development
-        - ⁠Agriculture
-        - ⁠Service Delivery
+        - Livelihoods
+        - Skilling
+        - Learning & Development
+        - Agriculture
+        - Service Delivery
         - Open Source Library
         - Water
+        - Identity & Digital Credentialing
     validations:
       required: true
-
 
   - type: dropdown
     id: ticket-technical-skills-required
@@ -131,6 +131,7 @@ body:
         - Angular
         - Artificial Intelligence
         - ASP.NET
+        - Astro.js
         - AWS
         - Babel
         - Bootstrap
@@ -144,6 +145,7 @@ body:
         - D3.js
         - Database
         - Debugging
+        - Deno
         - Design
         - DevOps
         - Django
@@ -174,7 +176,9 @@ body:
         - Mockups
         - Mocha
         - Natural Language Processing
+        - NATS Messaging
         - NestJS
+        - Next.js
         - Node.js
         - NUnit
         - OAuth
@@ -222,7 +226,7 @@ body:
 
   - type: dropdown
     id: ticket-category
-    attributes: 
+    attributes:
       label: Category
       description: Choose the categories that best describe your ticket
       multiple: true
@@ -239,7 +243,7 @@ body:
         - Data Science
         - Deprecation
         - Documentation
-        - Delpoyment
+        - Deployment
         - Frontend
         - Internationalization
         - Localization
@@ -258,5 +262,3 @@ body:
         - Other
     validations:
       required: true
-
-  
